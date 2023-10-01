@@ -16,6 +16,6 @@ Criteria followed for acceptance of the project:
    <img width="960" alt="image" src="https://github.com/Anitha-2002/Calculator/assets/88485754/8b99206c-41a5-4853-a4a2-9b7fdee41770">
 3. Modification of last ten results stack so that the stack contains only 10 results:
    <img width="960" alt="image" src="https://github.com/Anitha-2002/Calculator/assets/88485754/c00bb4f7-21e9-459f-a4ad-f9f1964ff1cb">
-4. Previous Button for displaying revious results:
+4. Previous Button for displaying previous results:
    <img width="960" alt="image" src="https://github.com/Anitha-2002/Calculator/assets/88485754/d504c647-6702-40df-9980-d1711ffc91a8">
 
