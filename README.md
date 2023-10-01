@@ -18,4 +18,12 @@ Criteria followed for acceptance of the project:
    <img width="960" alt="image" src="https://github.com/Anitha-2002/Calculator/assets/88485754/c00bb4f7-21e9-459f-a4ad-f9f1964ff1cb">
 4. Previous Button for displaying previous results:
    <img width="960" alt="image" src="https://github.com/Anitha-2002/Calculator/assets/88485754/d504c647-6702-40df-9980-d1711ffc91a8">
+5. Divide by Zero Checking:
+   <img width="960" alt="image" src="https://github.com/Anitha-2002/Calculator/assets/88485754/563d4ada-d6c5-4758-a04b-6360200df74e">
+   <img width="960" alt="image" src="https://github.com/Anitha-2002/Calculator/assets/88485754/a613d410-9b78-4b2b-aa23-bb5df8ab7ea9">
+
+
+# Demo Video:
+
+https://github.com/Anitha-2002/Calculator/assets/88485754/4c10854c-5f21-4c12-aea0-5e997421b623
 
