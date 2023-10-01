@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('/images/calculation2.jpeg');
+            background-position: fixed;
+            background-size: cover;
+        }
+        button{
+            color:black;
+            align-items: center;
+            background-color: white;
+            
+        }
+        .btn{
+            padding: 300px 300px;
+        }
+    </style>
+    <script>
+        function clickme()
+        {
+            document.getElementById("buttonClick").style.color = "white";
+            document.getElementById("buttonClick").style.backgroundColor = "black";   
+        }
+    </script>
+</head>
+<body>
+    <div class="btn">
+    <button id = "buttonClick" onclick="clickme()">Click me</button>
+    </div>
+</body>
+</html>

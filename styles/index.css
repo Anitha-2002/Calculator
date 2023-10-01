@@ -1,0 +1,75 @@
+body{
+    /* background-image: url('/images/calculation2.jpeg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button {
+    width:100%;
+    height:100%;
+    background-color: rgba(128, 128, 128, 0.183);
+    border:none; 
+    margin: none;
+    padding: none;
+    font-size: 20px;
+    font-weight:1000px;
+    color:black;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium',sans-serif;
+    opacity:100%;
+    z-index: 1;
+}
+button:hover{
+    background-color: brown !important; 
+    color: white !important;
+} 
+input {
+    width:344px;
+    font-size:45px;
+    text-align: right;
+}
+
+table{
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 5px 43px 0px rgba(153,153,153,1);
+    height: 380px;
+    width:350px;
+    padding: none;
+    margin: none;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+button .equal{
+    background-color: teal;
+    color:white;
+}
+/* td{
+     background-color: rgba(128, 128, 128, 0.183) !important; */
+
+
+.calc{
+    padding: none;
+    margin:none;
+    padding: 0% 10%;
+    overflow: hidden;
+    /* flex-direction: row; */
+    /* background: 2px solid rgba(128, 128, 128, 0.183) !important; */
+    
+}
+.parent {
+    display: flex;
+    padding: 3% 20%;
+}
+.lastTen {
+    background-color: azure;
+    outline: 2px dotted green;
+    padding: 50px 60px;
+}
+
+h1{
+    color:rgb(3, 103, 91);
+    text-transform: uppercase;
+    text-align: center;
+    background-color: beige;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calculator</title>
+        <link rel = "stylesheet" href = "styles/index.css">
+        <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        
+        <br><br>
+        <div id = "parent" class = "parent">
+        <div id = "calc" class = "calc">
+        
+        <table columns = 5>   <!-- Table guidelines-->    
+            <tr>
+                 <input id = "display" class="display" type="text" placeholder="0" maxlength="50"> <!--Input Text Area - Basic Best Practices -->
+            </tr>
+            <tr>
+                <td style = 'width: 20%;'><button id = "7" onclick="clickme('7')" >7</button></td>
+                <td style = 'width: 20%;'><button id = "8" onclick="clickme('8')">8</button></td>
+                <td style = 'width: 20%;'><button id = "9" onclick="clickme('9')">9</button></td>
+                <td style = 'width: 20%;'><button id = "c" onclick="clickme('c')"><i class="material-icons" style="font-size:15px">backspace</i></button></td>
+                <td style = 'width: 20%;'><button id = "a" onclick="clickme('a')">A</button></td>
+                
+            </tr>
+            <tr>
+                <td><button id = "4" onclick="clickme('4')">4</button></td>
+                <td><button id = "5" onclick="clickme('5')">5</button></td>
+                <td><button id = "6" onclick="clickme('6')">6</button></td>
+                <td><button id = "+" onclick="clickme('+')">+</button></td>
+                <td><button id = "-" onclick="clickme('-')">-</button></td>
+                
+            </tr>
+            <tr>
+                <td><button id = "3" onclick="clickme('3')">3</button></td>
+                <td><button id = "2" onclick="clickme('2')">2</button></td>
+                <td><button id = "1" onclick="clickme('1')">1</button></td>
+                <td><button id = "*" onclick="clickme('*')">*</button></td>
+                <td><button id = "/" onclick="clickme('/')">/</button></td>
+                
+            </tr>
+            <tr>
+                <!-- creating icon button-->
+                <!-- onclick events-->
+                <!-- button basic practices-->
+                <td colspan = "1" align="center"><button id = "history" style = "width:100%;" onclick="clickme('history')"><i class="material-icons" style="font-size:20px">history</i></button></td>
+                <td colspan = "1" align="center"><button id = "next" style = "width:100%;" onclick="clickme('next')"><i class="material-icons" style="font-size:20px">navigate_next</i></button></td>
+                <!-- end of icon buttons -->
+                <td colspan = "1" align="center"><button id = "0" style = "width:100%;" onclick="clickme('0')">0</button></td>
+                
+                <td colspan = "1"><button id = "."  onclick="clickme('.')">.</button></td>
+                <td><button id = "=" class="equal" onclick="clickme('=')" style = "background-color:teal; color:white">=</button></td>
+            </tr>
+        </table>
+        
+        </div>
+        <div id = "lastTenResultsDisplay" class = "lastTen">   
+            <strong>Last 10 Results:</strong><br>
+            <div id = "lastTenResults" class = "lastTenResults">
+
+            </div>
+        </div>
+    </div>    
+    </body>
+</html>
